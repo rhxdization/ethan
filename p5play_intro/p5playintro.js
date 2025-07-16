@@ -10,6 +10,8 @@ function setup() {
   ball.color = "blue";
 
   box = new Sprite();
+  box.x = 100
+  box.y = 100
   
  
   // End Basic shape testing
