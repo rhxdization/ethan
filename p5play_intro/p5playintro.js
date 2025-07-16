@@ -6,7 +6,7 @@ function setup() {
   ball = new Sprite();
   ball.x = 100;
   ball.y = 200;
-  ball.diameter = 50
+  ball.diameter = 50;
 
 
  
@@ -19,9 +19,9 @@ function setup() {
 
 function draw() {
   fill("skyblue");
-  stroke("pink");
-  strokeWeight(10);
+  // stroke("pink");
+  // strokeWeight(10);
   
-  circle(30,30,50);
-  rect(50,50,100,100)
+  // circle(30,30,50);
+  // rect(50,50,100,100)
 }
