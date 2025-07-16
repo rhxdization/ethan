@@ -4,7 +4,9 @@ function setup() {
   background(250); //background color
 
   ball = new Sprite();
-  ball.x
+  ball.x = 100;
+  ball.y = 200;
+  ball
 
 
  
