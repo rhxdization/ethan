@@ -17,4 +17,5 @@ function draw() {
   fill("skyblue");
   stroke("pink");
   strokeweight(10);
+  circle(30,30,30);
 }
