@@ -13,9 +13,10 @@ function setup() {
 }
 
 function draw() {
-    fill("skyblue");
+  fill("skyblue");
   stroke("pink");
-  strokeweight(10);
+  strokeWeight(10);
   
   circle(30,30,30);
+  rect()
 }
