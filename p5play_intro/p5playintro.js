@@ -8,7 +8,7 @@ function setup() {
   ball.y = 200;
   ball.diameter = 50;
   ball.color = "blue";
-  
+  ball.img.src
  
   // End Basic shape testing
 
