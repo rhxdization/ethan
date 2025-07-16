@@ -14,7 +14,7 @@ function setup() {
   box.y = 100
   box.w = 100
   box.h = 50
-  box.color
+  box.color = "red";
  
   // End Basic shape testing
 
