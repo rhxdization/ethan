@@ -3,10 +3,7 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
 
-  fill("skyblue");
-  stroke("pink");
-  strokeweight(10);
-  circle(30,30,30);
+
  
   // End Basic shape testing
 
@@ -16,5 +13,9 @@ function setup() {
 }
 
 function draw() {
-
+    fill("skyblue");
+  stroke("pink");
+  strokeweight(10);
+  
+  circle(30,30,30);
 }
