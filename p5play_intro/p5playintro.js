@@ -3,6 +3,8 @@ function setup() {
   new Canvas(800, 400);
   background(250); //background color
 
+  
+
 
  
   // End Basic shape testing
@@ -18,5 +20,5 @@ function draw() {
   strokeWeight(10);
   
   circle(30,30,50);
-  rect(50,50,100,200)
+  rect(50,50,100,100)
 }
