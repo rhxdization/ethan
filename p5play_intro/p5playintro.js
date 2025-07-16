@@ -8,7 +8,7 @@ function setup() {
   ball.y = 200;
   ball.diameter = 50;
   ball.color = "blue";
-  ball.img = loadImage()
+  ball.img = loadImage("sampleimage.jpg")
 
   box = new Sprite();
   box.x = 100
