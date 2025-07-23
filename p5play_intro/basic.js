@@ -33,4 +33,5 @@ function setup() {
     let height = 5;
     let area = 10*5/2;
     text("The triangles area is " + area, 50, 50);
+    text("The triangles area is " + area, 50, 50);
 }
