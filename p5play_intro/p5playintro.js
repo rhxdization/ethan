@@ -11,12 +11,12 @@ function setup() {
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
-  ball.bounciness = .5;
+  ball.bounciness = .1;
 
   box = new Sprite();
   box.x = 100
   box.y = 100
-  box.w = 1500
+  box.w = 5000
   box.h = 100
   box.color = "red";
   box.rotation = 180;
