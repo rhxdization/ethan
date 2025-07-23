@@ -1,6 +1,6 @@
 function setup() {
   // Set up the canvas
-  new Canvas(1200, 400);
+  new Canvas(1200, 500);
   background(255); //background color
   world.gravity.y = 8;
 
@@ -16,7 +16,7 @@ function setup() {
   box = new Sprite();
   box.x = 100
   box.y = 100
-  box.w = 1200
+  box.w = 1500
   box.h = 100
   box.color = "red";
   box.rotation = 180;
