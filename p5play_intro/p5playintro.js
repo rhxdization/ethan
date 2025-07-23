@@ -48,8 +48,8 @@ function draw() {
     ball.vel.y *= -1;
   }
 
-  box.x = mouseX;
-  box.y = mouseY;
+  // box.x = mouseX;
+  // box.y = mouseY;
 
   if (mouse.presses("left")) {
     let x = new Sprite (mouseX, mouseY, 50, 50)
