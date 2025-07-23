@@ -39,6 +39,22 @@ function draw() {
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10, 20);
   text("Mouse: (" + mouseX + ", " + mouseY + ")", 10, 40);
 
+   // Add current position to trail
+  trail.push({ x, y });
+
+  // Limit trail length
+  if (trail.length > 100) {
+    trail.shift(); // Remove oldest position
+  }
+
+  // Draw trail
+  for (let i = 0; i < trail.length; i++) {
+    let pos = trail[i];
+    let alpha = map(i, 0, trail.length, 0, 255); // Fades out older points
+    fill(255, alpha);
+    ellipse(pos.x, pos.y, 10, 10);
+  } 
+  
   if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2) {
     ball.vel.x *= -1;
   }
