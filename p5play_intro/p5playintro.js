@@ -9,12 +9,12 @@ function setup() {
   ball.diameter = 50;
   ball.color = "blue";
 
-  box = new Sprite();
-  box.x = 100
-  box.y = 100
-  box.w = 100
-  box.h = 50
-  box.color = "red";
+  // box = new Sprite();
+  // box.x = 100
+  // box.y = 100
+  // box.w = 100
+  // box.h = 50
+  // box.color = "red";
  
   // End Basic shape testing
 
