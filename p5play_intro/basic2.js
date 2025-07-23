@@ -4,4 +4,5 @@ function setup() {
 
     let sum = (a + b);
     console.log(sum);
+    console.log(a*b)
 }
