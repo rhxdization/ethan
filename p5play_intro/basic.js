@@ -16,7 +16,7 @@
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 function setup() {
-    // new Canvas(800,400);
+    new Canvas(800,400);
     // let a = 5;
     // let b = 10;
 
