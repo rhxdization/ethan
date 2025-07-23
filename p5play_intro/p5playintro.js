@@ -8,8 +8,9 @@ function setup() {
   ball.y = 200;
   ball.diameter = 50;
   ball.color = "blue";
-  ball.vel.x = 3;
-  ball.vel.y = 3;
+  ball.vel.x = 7;
+  ball.vel.y = 7;
+  ball.bounciness = 5;
 
   box = new Sprite();
   box.x = 100
