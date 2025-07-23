@@ -24,7 +24,7 @@ function setup() {
 }
 
 function draw() {
-  background(250);
+  background(128);
   // fill("skyblue");
   // stroke("pink");
   // strokeWeight(10);
@@ -32,7 +32,7 @@ function draw() {
   // circle(30,30,50);
   // rect(50,50,100,100)
   fill(0);
-  textSize(16);
+  textSize(12);
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10, 20);
   text("Mouse: (" + mouseX + ", " + mouseY + ")", 10, 40);
 }
