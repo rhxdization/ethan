@@ -24,6 +24,7 @@ function setup() {
 }
 
 function draw() {
+  background(250);
   // fill("skyblue");
   // stroke("pink");
   // strokeWeight(10);
