@@ -35,4 +35,7 @@ function setup() {
     text("The triangles area is " + area, 50, 50);
     text("The triangles area is " + area, 50, 100);
     text("The triangles area is " + area, 50, 150);
+    text("The triangles area is " + area, 50, 200);
+    text("The triangles area is " + area, 50, 250);
+    text("The triangles area is " + area, 50, 4);
 }
