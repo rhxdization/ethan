@@ -1,6 +1,6 @@
 function setup() {
   // Set up the canvas
-  new Canvas(800, 400);
+  new Canvas(1200, 400);
   background(255); //background color
   world.gravity.y = 8;
 
@@ -11,7 +11,7 @@ function setup() {
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
-  ball.bounciness = 1;
+  ball.bounciness = .5;
 
   box = new Sprite();
   box.x = 100
