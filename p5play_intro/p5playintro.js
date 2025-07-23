@@ -11,7 +11,7 @@ function setup() {
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
-  ball.bounciness = 1.5;
+  ball.bounciness = 1.2;
 
   box = new Sprite();
   box.x = 100
@@ -39,6 +39,7 @@ function draw() {
   fill(0);
   textSize(12);
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10, 20);
+  text("Mouse: (" + mouseX + ", " + mouseY + ")", 10, 40);
   text("Mouse: (" + mouseX + ", " + mouseY + ")", 10, 40);
   
   if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2) {
