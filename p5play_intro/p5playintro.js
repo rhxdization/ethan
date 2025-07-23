@@ -11,7 +11,7 @@ function setup() {
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
-  ball.bounciness = 100;
+  ball.bounciness = 1;
 
   box = new Sprite();
   box.x = 100
