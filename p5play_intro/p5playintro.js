@@ -56,7 +56,7 @@ function draw() {
     x.collider = ("dynamic")
   }
   if (mouse.presses("right")) {
-    let y = new Sprite (mouseX, mouseY, 50, 50)
+    let y = new Sprite (mouseX, mouseY, 30, 30)
     y.collider = ("static")
 }
 }
