@@ -10,7 +10,7 @@ function setup() {
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
-  ball.bounciness = 3;
+  ball.bounciness = 2;
 
   box = new Sprite();
   box.x = 100
@@ -18,7 +18,7 @@ function setup() {
   box.w = 100
   box.h = 50
   box.color = "red";
-  box.rotation = 90;
+  box.rotation = 180;
  
   // End Basic shape testing
 
