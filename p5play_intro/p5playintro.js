@@ -50,5 +50,4 @@ function draw() {
 
   box.x = mouseX;
   box.y = mouseY;
-  box.rotation = 180;
 }
