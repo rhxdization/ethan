@@ -32,5 +32,5 @@ function draw() {
   // rect(50,50,100,100)
   fill(0);
   textSize(16);
-  text("Ball: (" + int(ball.x) +);
+  text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")");
 }
