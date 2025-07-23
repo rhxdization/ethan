@@ -1,6 +1,6 @@
 function setup() {
   // Set up the canvas
-  new Canvas(800, 400);
+  new Canvas(1600, 800);
   background(255); //background color
 
   ball = new Sprite();
