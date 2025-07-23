@@ -18,6 +18,7 @@ function setup() {
   box.w = 100
   box.h = 50
   box.color = "red";
+  box.rotation = 90;
  
   // End Basic shape testing
 
@@ -48,5 +49,5 @@ function draw() {
 
   box.x = mouseX;
   box.y = mouseY;
-  
+  box.rotation = 90;
 }
