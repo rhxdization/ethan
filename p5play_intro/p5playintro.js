@@ -8,7 +8,6 @@ function setup() {
   ball.y = 200;
   ball.diameter = 50;
   ball.color = "blue";
-  ball.bounciness(100);
 
   box = new Sprite();
   box.x = 100
