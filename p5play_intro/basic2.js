@@ -9,5 +9,5 @@ function setup() {
 
     fill(255,0,0);
     textSize(14);
-    
+    text("The sum of a and b is " + sum, 50, 50)
 }
