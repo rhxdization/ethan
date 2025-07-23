@@ -31,7 +31,7 @@ function draw() {
   
   // circle(30,30,50);
   // rect(50,50,100,100)
-  fill(0);
+  fill();
   textSize(16);
   text("Ball: (" + int(ball.x) + ", " + int(ball.y) + ")", 10, 20);
   text("Mouse: (" + mouseX + ", " + mouseY + ")", 10, 40);
