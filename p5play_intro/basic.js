@@ -25,7 +25,7 @@ function setup() {
     // let product = (a * b);
 
     fill(255,0,0);
-    textSize(40);
+    textSize(60);
     // text("The sum of a and b is " + sum, 50, 50);
     // text("The product of a and b is " + product, 50, 70);
 
