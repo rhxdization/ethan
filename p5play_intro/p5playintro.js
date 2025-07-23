@@ -1,6 +1,6 @@
 function setup() {
   // Set up the canvas
-  new Canvas(1000, 600);
+  new Canvas(800, 400);
   background(255); //background color
   world.gravity.y = 150;
 
