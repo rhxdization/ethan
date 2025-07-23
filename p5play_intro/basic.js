@@ -31,4 +31,5 @@ function setup() {
 
     let base = 10
     let height = 5
+    let area = 
 }
