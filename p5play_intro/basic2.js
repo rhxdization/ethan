@@ -8,5 +8,6 @@ function setup() {
     console.log(a*b);
 
     fill(255,0,0);
-    textSize()
+    textSize(14);
+    
 }
