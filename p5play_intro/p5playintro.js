@@ -32,5 +32,5 @@ function draw() {
   // rect(50,50,100,100)
   fill(0);
   textSize(16);
-  text("https://prod.liveshare.vsengsaas.visualstudio.com/join?8DE5AF3B515723485D8F4EED33AB1A502956");
+  text("Ball: ");
 }
