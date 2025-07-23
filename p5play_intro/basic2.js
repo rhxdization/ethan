@@ -1,5 +1,5 @@
 function setup() {
-    canvas
+    new Canvas()
     let a = 5
     let b = 10
 
