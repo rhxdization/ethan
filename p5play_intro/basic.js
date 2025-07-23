@@ -29,8 +29,8 @@ function setup() {
     // text("The sum of a and b is " + sum, 50, 50);
     // text("The product of a and b is " + product, 50, 70);
 
-    let base = 10
-    let height = 5
-    let area = 10*5/2
-    text("The triangles area is " + area, 50, 50)
+    let base = 10;
+    let height = 5;
+    let area = 10*5/2;
+    text("The triangles area is " + area, 50, 50);
 }
