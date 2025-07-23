@@ -16,7 +16,7 @@ function setup() {
   box = new Sprite();
   box.x = 100
   box.y = 100
-  box.w = 300
+  box.w = 600
   box.h = 10
   box.color = "red";
   box.rotation = 180;
