@@ -53,7 +53,7 @@ function draw() {
 
   if (mouse.presses("left")) {
     let x = new Sprite (mouseX, mouseY, 50, 50)
-    x.collider = dynamicc
+    x.collider = ("dynamic")
   }
 }
 
