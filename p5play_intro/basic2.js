@@ -5,7 +5,7 @@ function setup() {
 
     let sum = (a + b);
     console.log(sum);
-    let product = a * b;
+    let product = (a * b);
 
     fill(255,0,0);
     textSize(14);
