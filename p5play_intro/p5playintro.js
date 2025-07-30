@@ -18,8 +18,8 @@ function setup() {
   ball2.y = 200;
   ball2.diameter = 50;
   ball2.color = "red";
-  ball2.vel.x = 7;
-  
+  ball2.vel.x = -7;
+  ball2.vel.y = -7
  
   // End Basic shape testing
 
