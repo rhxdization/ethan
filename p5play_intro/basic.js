@@ -75,6 +75,7 @@ function setup() {
 
   num = 19
   while (num >= 1) {
+        t(num,30,num*10);
     console.log(num)
     num-=2
   }
