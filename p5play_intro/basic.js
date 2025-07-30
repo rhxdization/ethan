@@ -76,7 +76,6 @@ function setup() {
   num = 19
   while (num >= 1) {
     console.log(num)
-    text(num,30,num*10);
     num-=2
   }
 }
