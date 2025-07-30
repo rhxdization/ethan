@@ -63,13 +63,15 @@ function setup() {
   //   console.log(sum);
   // }
 
-  age = 16
+  // age = 16
 
-  if (age <= 9) {
-    console.log("lower primary");
-  } else if (age <= 12) {
-    console.log("upper primary");
-  } else {
-    console.log("secondary school");
-  }
+  // if (age <= 9) {
+  //   console.log("lower primary");
+  // } else if (age <= 12) {
+  //   console.log("upper primary");
+  // } else {
+  //   console.log("secondary school");
+  // }
+
+  
 }
