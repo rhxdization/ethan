@@ -73,5 +73,8 @@ function setup() {
   //   console.log("secondary school");
   // }
 
-  
+  num = 19
+  while (num >= 1) {
+    
+  }
 }
