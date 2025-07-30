@@ -47,10 +47,10 @@ function draw() {
   if (ball.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2) {
     ball.vel.y *= -1;
   }
-    if (ball.x < 0 + ball.diameter / 2 || ball.x > width - ball.diameter / 2) {
+    if (ball2.x < 0 + ball2.diameter / 2 || ball2.x > width - ball2.diameter / 2) {
     ball.vel.x *= -1;
   }
-  if (ball2.y < 0 + ball.diameter / 2 || ball.y > height - ball.diameter / 2) {
+  if (ball2.y < 0 + ball2.diameter / 2 || ball2.y > height - ball2.diameter / 2) {
     ball.vel.y *= -1;
   }
 
