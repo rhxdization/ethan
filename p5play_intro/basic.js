@@ -57,5 +57,5 @@ function setup() {
       console.log(i);
       sum+=i
     }
-    text("The value of all numbers is " + sum)
+    text("The value of all numbers is " + sum, 10, 20)
   }
