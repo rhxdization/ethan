@@ -39,5 +39,10 @@ function setup() {
     // text("The triangles area is " + area, 50, 250);
     // text("The triangles area is " + area, 50, 300);
 
-    
+    let a = 5
+    let b = 10
+
+    for (let i = 1; i<=10; i++) {
+      
+    }
 }
