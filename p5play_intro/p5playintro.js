@@ -13,11 +13,11 @@ function setup() {
   ball.vel.y = 7;
   ball.bounciness = 3;
 
-  ball = new Sprite();
-  ball.x = 100
-  ball.y = 100
-  ball.diameter = 100
-  ball.color = "red";
+  ball2 = new Sprite();
+  ball2.x = 100
+  ball2.y = 200
+  ball2.diameter = 100
+  ball2.color = "red";
  
   // End Basic shape testing
 
