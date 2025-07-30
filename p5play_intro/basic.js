@@ -56,8 +56,9 @@ function setup() {
     let sum = 0
     for (let i = 2; i<=20; i+=2) {
       console.log(i);
-      sum+=i
-      text(i,20,i*10+20)
+      sum+=i;
+      text(i,20,i*10+20);
     }
-    text("The value of all numbers is " + sum, 10, 20)
+    text("The value of all numbers is " + sum, 10, 20);
+    console.log(sum);
   }
