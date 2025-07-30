@@ -17,8 +17,8 @@
   // write your codes here
 function setup() {
     new Canvas(800,400);
-    textSize(16)
-    f
+    textSize(16);
+    fill(0);
 
     // // let sum = (a + b);
     // // console.log(sum);
@@ -52,6 +52,6 @@ function setup() {
     //   console.log(i);
     // }
     for (let i = 2; i<=20; i+=2) {
-
+      
     }
   }
