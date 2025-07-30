@@ -18,7 +18,7 @@
 function setup() {
     new Canvas(800,400);
     textSize(16);
-    fill(0);
+    fill(255);
     
 
     // // let sum = (a + b);
