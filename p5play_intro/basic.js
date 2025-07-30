@@ -43,6 +43,9 @@ function setup() {
     let b = 10
 
     for (let i = 3; i<=46; i+=3) {
-      console.log(i)
+      console.log(i);
+    }
+    for (let i = 3; i<=46; i+=3) {
+      console.log(i);
     }
   }
