@@ -14,11 +14,10 @@ function setup() {
   ball.bounciness = 3;
 
   ball2 = new Sprite();
-  ball2.x = 100;
-  ball2.y = 200;
+  ball2.x = -100;
+  ball2.y = -200;
   ball2.diameter = 50;
   ball2.color = "red";
-  ball2.x = 
   ball2.vel.x = -7;
   ball2.vel.y = -7;
  
