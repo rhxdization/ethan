@@ -63,7 +63,7 @@ function setup() {
   //   console.log(sum);
   // }
 
-  age = 9
+  age = 11
 
   if (age <= 9) {
     console.log("lower primary");
