@@ -57,4 +57,5 @@ function setup() {
       console.log(i);
       sum+=i
     }
+    text("The value of ")
   }
