@@ -39,16 +39,17 @@ function setup() {
     // text("The triangles area is " + area, 50, 250);
     // text("The triangles area is " + area, 50, 300);
 
-    let a = 5
-    let b = 10
+    // let a = 5
+    // let b = 10
 
-    for (let i = 3; i<=46; i+=3) {
-      console.log(i);
-    }
-    for (let i = 10; i<=20; i++) {
-      console.log(i);
-    }
-    for (let i = 20; i>=1; i--) {
-      console.log(i);
-    }
+    // for (let i = 3; i<=46; i+=3) {
+    //   console.log(i);
+    // }
+    // for (let i = 10; i<=20; i++) {
+    //   console.log(i);
+    // }
+    // for (let i = 20; i>=1; i--) {
+    //   console.log(i);
+    // }
+    
   }
