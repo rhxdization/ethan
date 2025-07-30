@@ -71,4 +71,5 @@ function setup() {
     console.log("upper primary");
   } else {
     console.log("secondary school");
-  }}
+  }
+}
