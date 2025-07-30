@@ -12,6 +12,8 @@ function setup() {
     text("The sum of a and b is " + sum, 50, 50);
     text("The product of a and b is " + product, 50, 70);
 
+    
+
 
     
 }
