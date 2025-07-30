@@ -42,7 +42,7 @@ function setup() {
     let a = 5
     let b = 10
 
-    for (let i = 10; i<=10; i++) {
+    for (let i = 10; i<=20; i++) {
       console.log(i)
     }
 }
