@@ -16,8 +16,8 @@ function setup() {
   ball = new Sprite();
   ball.x = 100
   ball.y = 100
- ball.diameter = 100
-  box.color = "red";
+  ball.diameter = 100
+  ball.color = "red";
  
   // End Basic shape testing
 
