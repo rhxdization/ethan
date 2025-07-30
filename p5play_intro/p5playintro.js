@@ -16,7 +16,7 @@ function setup() {
   ball2 = new Sprite();
   ball2.x = 100
   ball2.y = 200
-  ball2.diameter = 100
+  ball2.diameter = 50
   ball2.color = "red";
  
   // End Basic shape testing
@@ -48,10 +48,10 @@ function draw() {
     ball.vel.y *= -1;
   }
     if (ball2.x < 0 + ball2.diameter / 2 || ball2.x > width - ball2.diameter / 2) {
-    ball.vel.x *= -1;
+    ball2.vel.x *= -1;
   }
   if (ball2.y < 0 + ball2.diameter / 2 || ball2.y > height - ball2.diameter / 2) {
-    ball.vel.y *= -1;
+    ball2.vel.y *= -1;
   }
 
   box.x = mouseX;
