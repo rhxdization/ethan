@@ -15,5 +15,5 @@ function preload() {
 
 function setup() {
     new Canvas(400,800);
-    
+    background("skyblue");
 }
