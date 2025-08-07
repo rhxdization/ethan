@@ -55,5 +55,5 @@ function draw() {
 
     fill("black");
     textSize = 14;
-    text("vel.y: " + bird.vel.y.toFixed(1), 10, 20)
+    text("vel.y: " + bird.vel.y.toFixed(0), 10, 20)
 }
