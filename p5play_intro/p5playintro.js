@@ -20,6 +20,7 @@ function setup() {
   ball2.color = "red";
   ball2.vel.x = -7;
   ball2.vel.y = -7;
+  ball2.bounciness = 1.5;
  
   // End Basic shape testing
 
