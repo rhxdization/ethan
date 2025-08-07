@@ -31,7 +31,9 @@ function setup() {
     bird.img = flapMidImg;
     bird.bounciness = 1;
     bird.y = 200;
-    
+    bird.width = 30;
+    bird.height = 30;
+    bird.
     world.gravity.y = 25;
 }
 
