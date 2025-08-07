@@ -33,7 +33,7 @@ function setup() {
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 1.5;
+    bird.bounciness = .5;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
@@ -41,7 +41,7 @@ function setup() {
     bird.drag = 0.02;
     bird.collider = "dynamic";
 
-    world.gravity.y = 10;
+    world.gravity.y = 20;
 }
 
 // called repeatedly 60 times in a second
@@ -49,10 +49,29 @@ function setup() {
 
 function draw() {
     image(bg, 0, 0, width, height)
-    if (mouse.presses("left")) {
-        new Sprite(mouseX, mouseY, 30, 30, "static");
+
+    if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
+        bird.vel.y = -7;
+        bird.sleeping = false;
     }
-    if (mouse.presses("right")) {
-        new Sprite(mouseX, mouseY, 30, 30, "dynamic");
+
+    fill("black");
+    textSize = 14;
+    text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
+    text("is moving: " + bird.isMoving, 10, 40);
+    text("is sleeping: " + bird.sleeping, 10, 60);
+
+    if (bird.vel.y < 0.5) {
+        bird.img = flapDownImg;
+        bird.rotation = -30;
     }
+    else if (bird.vel.y > 0.5) {
+        bird.img = flapUpImg;
+        bird.rotation = 30;
+    }
+    else {
+        bird.img = flapMidImg;
+        bird.rotation = 0;
+    }
+    
 }
