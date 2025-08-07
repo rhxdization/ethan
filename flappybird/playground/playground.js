@@ -10,9 +10,9 @@ function preload() {
     bg = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
 
-    flapMidImg = image(yellowbird-midflap.png);
-    flapDownImg = image(yellowbird-downflap.png);
-    flapUpImg = image(yellowbird-Upflap.png);
+    flapMidImg = mage(yellowbird-midflap.png);
+    flapDownImg = loadImage(yellowbird-downflap.png);
+    flapUpImg = loadImage(yellowbird-Upflap.png);
 }
 
 // similiar to "when green flag clicked"
