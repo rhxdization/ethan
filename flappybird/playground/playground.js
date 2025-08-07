@@ -17,6 +17,7 @@ function setup() {
     new Canvas(400,600);
     background("skyblue");
     floor = new Sprite();
+    floor.collider = 
     floor.img = base;
     floor.y = height - 50;
 }
