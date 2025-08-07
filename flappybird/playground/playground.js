@@ -31,7 +31,7 @@ function setup() {
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 1;
+    bird.bounciness = 1.5;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
@@ -48,6 +48,6 @@ function setup() {
 function draw() {
     image(bg, 0, 0, width, height)
     if (mouse.presses("left")) {
-        new Sprite(mouseX, mouseY, 30, 30, "dynamic");
+        new Sprite(mouseX, mouseY, 30, 30, "static");
     }
 }
