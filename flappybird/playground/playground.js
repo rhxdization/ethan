@@ -27,7 +27,7 @@ function setup() {
     floor.y = height - 50;
     
     bird = new Sprite();
-    bird = 
+    bird.img = flapMidImg;
 }
 
 // called repeatedly 60 times in a second
