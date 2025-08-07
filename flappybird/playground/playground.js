@@ -22,5 +22,5 @@ function setup() {
 // where interaction and animation
 
 function draw() {
-    
+    image()
 }
