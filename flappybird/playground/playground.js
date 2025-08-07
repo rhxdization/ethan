@@ -19,3 +19,8 @@ function setup() {
 }
 
 // called repeatedly 60 times in a second
+// where interaction and animation
+
+function draw() {
+    
+}
