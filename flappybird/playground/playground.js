@@ -25,6 +25,7 @@ function setup() {
     floor.collider = "static";
     floor.img = base;
     floor.y = height - 50;
+    \
 }
 
 // called repeatedly 60 times in a second
