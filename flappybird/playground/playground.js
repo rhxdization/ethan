@@ -37,6 +37,8 @@ function setup() {
     bird.height = 30;
     bird.mass = 2;
     bird.drag = 0.02;
+    bird.collider = "dynamic";
+    
     world.gravity.y = 10;
 }
 
