@@ -35,7 +35,7 @@ function setup() {
     bird.height = 30;
     bird.mass = 2;
     bird.drag = 0.02;
-    world.gravity.y = 25;
+    world.gravity.y = 80;
 }
 
 // called repeatedly 60 times in a second
