@@ -18,4 +18,4 @@ function setup() {
     background("skyblue");
 }
 
-// called repeat
+// called repeatedly 60 times in a second
