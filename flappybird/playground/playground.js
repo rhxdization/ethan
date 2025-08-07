@@ -56,5 +56,5 @@ function draw() {
     fill("black");
     textSize = 14;
     text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
-    text("is moving: ")
+    text("is moving: " + bird.isMoving)
 }
