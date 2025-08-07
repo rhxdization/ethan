@@ -6,5 +6,5 @@ let bg, base;
 // load media files like img or sound effects
 
 function preload() {
-    bg = loadImage(assets)
+    bg = loadImage("assets/background-day.png")
 }
