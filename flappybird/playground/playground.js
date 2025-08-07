@@ -14,5 +14,5 @@ function preload() {
 // run once
 
 function setup() {
-    new Canvas
+    new Canvas(400,800)
 }
