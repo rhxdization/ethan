@@ -31,7 +31,7 @@ function setup() {
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 1.5;
+    bird.bounciness = 3;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
@@ -49,7 +49,7 @@ function draw() {
     image(bg, 0, 0, width, height)
 
     if (kb.presses("space")) {
-        bird.vel.y = -10;
+        bird.vel.y = -7;
         bird.sleeping = false;
     }
 }
