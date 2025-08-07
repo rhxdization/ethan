@@ -29,6 +29,9 @@ function setup() {
     
     bird = new Sprite();
     bird.img = flapMidImg;
+    bird.bounciness = 1;
+    
+    
 }
 
 // called repeatedly 60 times in a second
