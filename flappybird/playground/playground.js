@@ -2,13 +2,15 @@
 
 let bird, floor;
 let bg, base;
-let flapMidimg, flapDownImg, flap
+let flapMidimg, flapDownImg, flapUpImg;
 
 // load media files like img or sound effects
 
 function preload() {
     bg = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
+
+    
 }
 
 // similiar to "when green flag clicked"
