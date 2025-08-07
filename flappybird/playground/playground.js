@@ -31,7 +31,7 @@ function setup() {
     bird.img = flapMidImg;
     bird.bounciness = 1;
     
-    
+    world.gravity.y = 25;
 }
 
 // called repeatedly 60 times in a second
