@@ -60,6 +60,9 @@ function draw() {
     text("is sleeping: " + bird.sleeping, 10, 60);
 
     if (bird.vel.y < 0) {
-        bird.img = flapDownImg
+        bird.img = flapDownImg;
+        bird.rotation = -30;
     }
+    else if (bird.vel.y > 0)
+    
 }
