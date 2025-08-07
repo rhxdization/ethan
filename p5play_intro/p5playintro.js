@@ -2,7 +2,7 @@ function setup() {
   // Set up the canvas
   new Canvas(1200, 500);
   background(255); //background color
-  world.gravity.y = 0;
+  world.gravity.y = 10;
 
   ball = new Sprite();
   ball.x = 100;
