@@ -17,7 +17,9 @@ function setup() {
     new Canvas(400,600);
     background("skyblue");
     let floor = new Sprite();
-    floor.img = base
+    floor.img = base;
+
+    floor.y = 200;
 }
 
 // called repeatedly 60 times in a second
@@ -25,5 +27,4 @@ function setup() {
 
 function draw() {
     image(bg, 0, 0, width, height)
-    image(base, 0, -600)
 }
