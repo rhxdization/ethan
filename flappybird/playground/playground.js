@@ -2,6 +2,7 @@
 
 let bird, floor;
 let bg, base;
+let flapMidimg, flapDownImg, flap
 
 // load media files like img or sound effects
 
