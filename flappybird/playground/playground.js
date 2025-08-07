@@ -55,7 +55,7 @@ function draw() {
     }
 
     if (kb.presses("space")) {
-        bird.vel.y = 15;
-        bird.sleeping
+        bird.vel.y = -5;
+        bird.sleeping = false
     }
 }
