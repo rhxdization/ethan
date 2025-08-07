@@ -25,7 +25,9 @@ function setup() {
     floor.collider = "static";
     floor.img = base;
     floor.y = height - 50;
-    \
+    
+    bird = new Sprite();
+    bird = 
 }
 
 // called repeatedly 60 times in a second
