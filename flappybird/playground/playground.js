@@ -58,4 +58,7 @@ function draw() {
     text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
     text("is moving: " + bird.isMoving, 10, 40);
     text("is sleeping: " + bird.sleeping, 10, 60);
+
+    if (bird.vel.y < 0);
+    
 }
