@@ -31,7 +31,7 @@ function setup() {
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 3;
+    bird.bounciness = .5;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
