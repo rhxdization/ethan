@@ -3,4 +3,8 @@
 let bird, floor;
 let bg, base;
 
-// load 
+// load media files like img or sound effects
+
+function preload() {
+    bg = loadImage(assets)
+}
