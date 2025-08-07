@@ -11,4 +11,8 @@ function preload() {
 }
 
 // similiar to "when green flag clicked"
+// run once
 
+function setup() {
+    new Canvas
+}
