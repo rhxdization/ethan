@@ -59,6 +59,7 @@ function draw() {
     text("is moving: " + bird.isMoving, 10, 40);
     text("is sleeping: " + bird.sleeping, 10, 60);
 
-    if (bird.vel.y < 0);
-    
+    if (bird.vel.y < 0) {
+        bird.img = flapDownImg
+    }
 }
