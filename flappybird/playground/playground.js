@@ -26,10 +26,12 @@ function setup() {
     floor.collider = "static";
     floor.img = base;
     floor.y = height - 20;
+    floor.height = 125;
+    floor.width = 400;
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 0.997;
+    bird.bounciness = 0.75;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
