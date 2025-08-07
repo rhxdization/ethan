@@ -39,7 +39,7 @@ function setup() {
     bird.drag = 0.02;
     bird.collider = "dynamic";
 
-    world.gravity.y = 10;
+    world.gravity.y = 20;
 }
 
 // called repeatedly 60 times in a second
@@ -49,7 +49,7 @@ function draw() {
     image(bg, 0, 0, width, height)
 
     if (kb.presses("space")) {
-        bird.vel.y = -5;
+        bird.vel.y = -10;
         bird.sleeping = false;
     }
 }
