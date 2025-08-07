@@ -12,7 +12,7 @@ function preload() {
 
     flapMidImg = image(yellowbird-midflap.png);
     flapDownImg = image(yellowbird-downflap.png);
-    flapUpImg = image(yellowbird-mUpflap.png);
+    flapUpImg = image(yellowbird-Upflap.png);
 }
 
 // similiar to "when green flag clicked"
