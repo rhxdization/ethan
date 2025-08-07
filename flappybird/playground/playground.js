@@ -55,5 +55,5 @@ function draw() {
 
     fill("black");
     textSize = 14;
-    
+    text("vel.y: ")
 }
