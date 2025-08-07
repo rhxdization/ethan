@@ -7,4 +7,5 @@ let bg, base;
 
 function preload() {
     bg = loadImage("assets/background-day.png")
+    base
 }
