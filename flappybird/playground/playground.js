@@ -17,7 +17,7 @@ function setup() {
     new Canvas(400,600);
     background("skyblue");
     let floor = new Sprite();
-    floor = base.png
+    floor.img = base
 }
 
 // called repeatedly 60 times in a second
