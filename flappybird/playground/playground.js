@@ -25,17 +25,17 @@ function setup() {
     floor = new Sprite();
     floor.collider = "static";
     floor.img = base;
-    floor.y = height - 50;
+    floor.y = height - 20;
     
     bird = new Sprite();
     bird.img = flapMidImg;
-    bird.bounciness = 0.9;
+    bird.bounciness = 0.997;
     bird.y = 200;
     bird.width = 30;
     bird.height = 30;
     bird.mass = 2;
     bird.drag = 0.02;
-    world.gravity.y = 80;
+    world.gravity.y = 10;
 }
 
 // called repeatedly 60 times in a second
