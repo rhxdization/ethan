@@ -18,7 +18,7 @@ function setup() {
     background("skyblue");
     let floor = new Sprite();
     floor.img = base;
-    floor.y = 550;
+    floor.y = height - 20;
 }
 
 // called repeatedly 60 times in a second
