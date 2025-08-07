@@ -21,6 +21,7 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background("skyblue");
+    
     floor = new Sprite();
     floor.collider = "static";
     floor.img = base;
