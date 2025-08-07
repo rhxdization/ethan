@@ -16,8 +16,8 @@ function preload() {
 function setup() {
     new Canvas(400,600);
     background("skyblue");
-    let floor = new Sprite()
-    floor = floor.img
+    let floor = new Sprite();
+    floor = base.png
 }
 
 // called repeatedly 60 times in a second
