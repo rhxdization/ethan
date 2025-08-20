@@ -28,7 +28,6 @@ new Canvas(400,600);
 background(255);
 bird = new Sprite();
 bird.bounciness = .5;
-
     bird.width = 30;
     bird.height = 30;
     bird.mass = 2;
