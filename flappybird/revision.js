@@ -24,7 +24,7 @@ function setup() {
 //         i++;
 //     }
 
-new Canvas(400,600);
+new Canvas(2400,3600);
 background(255);
 bird = new Sprite();
 bird.bounciness = .5;
