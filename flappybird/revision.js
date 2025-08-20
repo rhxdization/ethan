@@ -12,7 +12,7 @@ let i = 1
 // let n = ["1", "2", "3", "4"];
 
 function preload() {
-    let image1 = loadImage("assets/igm.jpeg"); 
+    image1 = loadImage("assets/igm.jpeg"); 
 }
 
 function setup() {
