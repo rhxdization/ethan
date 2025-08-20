@@ -12,7 +12,7 @@ let i = 1
 // let n = ["1", "2", "3", "4"];
 
 function preload() {
-    let image = loadImage("assets/igm.jpeg"); 
+    let image1 = loadImage("assets/igm.jpeg"); 
 }
 
 function setup() {
@@ -35,6 +35,6 @@ bird.bounciness = .5;
     bird.mass = 2;
     bird.drag = 0.02;
     bird.collider = "dynamic";
-    bird.img = image;
+    bird.img = image1;
 }
 
