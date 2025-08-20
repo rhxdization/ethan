@@ -7,6 +7,7 @@
 // let pie = 3.142
 
 function setup() {
-    for (let i = 1; i < 3; i++);
-        console.log(i);
+    for (let i = 1; i < 4; i++) {
+        
+    }
 }
