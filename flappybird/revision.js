@@ -19,12 +19,3 @@ let i = 1
 //     }
 // }
 
-new Canvas(400,600);
-bird = new Sprite();
-bird.bounciness = .5;
-    bird.y = 200;
-    bird.width = 30;
-    bird.height = 30;
-    bird.mass = 2;
-    bird.drag = 0.02;
-    bird.collider = "dynamic";
