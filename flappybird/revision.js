@@ -31,6 +31,6 @@ bird.bounciness = .5;
     bird.mass = 2;
     bird.drag = 0.02;
     bird.collider = "dynamic";
-
+    bird.img = loadImage(img1);
 }
 
