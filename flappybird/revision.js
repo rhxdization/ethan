@@ -3,13 +3,17 @@
 //declare a variable
 let i = 1
 
-let img1 = "flappybird/assets/igm.jpeg" 
+
 // let twominisandabigpot = "sixsevenmustardmangos";
 // let peepee = 67
 // let pie = 3.142
 
 // declare an array
 // let n = ["1", "2", "3", "4"];
+
+function preload() {
+    let img1 = "flappybird/assets/igm.jpeg" 
+}
 
 function setup() {
 //     // for (let i = 1; i < 4; i++) {
