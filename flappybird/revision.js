@@ -2,7 +2,8 @@
 
 //declare a variable
 let i = 1
-// let twominisandabigpot = "sixsevenmustardmangos";
+
+let img1 = // let twominisandabigpot = "sixsevenmustardmangos";
 // let peepee = 67
 // let pie = 3.142
 
