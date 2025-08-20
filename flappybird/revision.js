@@ -7,14 +7,24 @@ let i = 1
 // let pie = 3.142
 
 // declare an array
-let n = ["1", "2", "3", "4"];
+// let n = ["1", "2", "3", "4"];
 
-function setup() {
-    // for (let i = 1; i < 4; i++) {
-    //     console.log(i);
-    // }
-    while (i <= 10) {
-        console.log(i);
-        i++;
-    }
-}
+// function setup() {
+//     // for (let i = 1; i < 4; i++) {
+//     //     console.log(i);
+//     // }
+//     while (i <= 10) {
+//         console.log(i);
+//         i++;
+//     }
+// }
+
+new Canvas(400,600);
+bird = new Sprite();
+bird.bounciness = .5;
+    bird.y = 200;
+    bird.width = 30;
+    bird.height = 30;
+    bird.mass = 2;
+    bird.drag = 0.02;
+    bird.collider = "dynamic";
