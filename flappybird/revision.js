@@ -19,6 +19,7 @@ function setup() {
 //     }
 
 new Canvas(400,600);
+
 bird = new Sprite();
 bird.bounciness = .5;
     bird.y = 200;
