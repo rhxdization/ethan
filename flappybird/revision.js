@@ -7,7 +7,7 @@ let i = 1
 // let pie = 3.142
 
 // declare an array
-let n = ["1", "2", "3", "4"]
+let n = ["1", "2", "3", "4"];
 
 function setup() {
     // for (let i = 1; i < 4; i++) {
