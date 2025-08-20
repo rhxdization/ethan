@@ -12,7 +12,7 @@ let i = 1
 // let n = ["1", "2", "3", "4"];
 
 function preload() {
-    image1 = loadImage("flappybird/assets/bluebird-downflap.png"); 
+    image1 = loadImage("assets/bluebird-downflap.png"); 
 }
 
 function setup() {
