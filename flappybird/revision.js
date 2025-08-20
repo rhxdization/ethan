@@ -5,7 +5,6 @@
 // let twominisandabigpot = "sixsevenmustardmangos";
 // let peepee = 67
 // let pie = 3.142
-let i = 1
 
 function setup() {
     // for (let i = 1; i < 4; i++) {
