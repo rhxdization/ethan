@@ -2,4 +2,5 @@
 
 //declare a variable
 
-let twominisandabigpot = 
+let twominisandabigpot = "sixsevenmustardmangos";
+let peepee = 67
