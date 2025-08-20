@@ -4,3 +4,4 @@
 
 let twominisandabigpot = "sixsevenmustardmangos";
 let peepee = 67
+let pi = 3.141
