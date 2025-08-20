@@ -2,9 +2,9 @@
 
 //declare a variable
 
-let twominisandabigpot = "sixsevenmustardmangos";
-let peepee = 67
-let pie = 3.142
+// let twominisandabigpot = "sixsevenmustardmangos";
+// let peepee = 67
+// let pie = 3.142
 
 function setup() {
     for (let i = 1; i < 3; i++);
