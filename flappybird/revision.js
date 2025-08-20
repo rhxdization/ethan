@@ -12,7 +12,7 @@ let i = 1
 // let n = ["1", "2", "3", "4"];
 
 function preload() {
-    let img1 = loadImage("flappybird/assets/igm.jpeg"); 
+    let img1 = loadImage("assets/igm.jpeg"); 
 }
 
 function setup() {
