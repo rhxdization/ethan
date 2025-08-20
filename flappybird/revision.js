@@ -8,4 +8,5 @@ let pie = 3.142
 
 function setup() {
     for (let i = 0; i < 3; i++);
+        console.log(i);
 }
