@@ -2,4 +2,4 @@
 
 //declare a variable
 
-let x = x
+let 
