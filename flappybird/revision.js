@@ -11,7 +11,7 @@ function setup() {
     // for (let i = 1; i < 4; i++) {
     //     console.log(i);
     // }
-    while (i < 10) {
+    while (i <= 10) {
         console.log(i);
     }
 }
