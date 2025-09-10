@@ -78,7 +78,7 @@ function draw() {
         spawnPipePair();
     }
     
-    image(bg, 0, 0, width, height)    
+        image(bg, 0, 0, width, height)    
         
         if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
         bird.vel.y = -7;
