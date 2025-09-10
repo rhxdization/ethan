@@ -10,7 +10,7 @@ let pipe;
 let bottomPipe, topPipe;
 let gameover;
 let gameoverlabel;
-let ss;
+let ssi;
 let ssl;
 
 // load media files like img or sound effects
