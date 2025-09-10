@@ -10,6 +10,7 @@ let pipe;
 let bottomPipe, topPipe;
 let gameover;
 let gameoverlabel;
+let st
 
 // load media files like img or sound effects
 
@@ -105,7 +106,7 @@ function draw() {
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y === 0) {
-        gameoverlabel = new Sprite(width/2, height/2, 192, 42);
+        gameoverlabel = new Sprite(width/2, height/2, 192, 42, 'static');
         gameoverlabel.img = gameover;
         gameoverlabel.layer = 100;
         gameoverlabel.x = camera.x;
