@@ -68,10 +68,6 @@ function setup() {
 
 function draw() {
     
-    if (frameCount === 1) {
-        spawnPipePair();
-    }
-    
     image(bg, 0, 0, width, height)
 
     if (kb.presses('space') || kb.presses('w') || mouse.presses('left')) {
