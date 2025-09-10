@@ -80,7 +80,10 @@ function draw() {
     }
 
     if (start) {
-        if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
+        
+    }
+
+    if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
         bird.vel.y = -7;
         bird.sleeping = false;
     }
@@ -126,9 +129,6 @@ function draw() {
         noLoop();
     } 
 
-    }
-
-    
 }
 
 function spawnPipePair() {
