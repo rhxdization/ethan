@@ -76,7 +76,7 @@ function draw() {
 
     if (kb.presses('space') || kb.presses('w') || mouse.presses('left')) {
         start = true;
-        s
+        startScreenLabel.visible = false;
     }
 
     if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
