@@ -26,6 +26,7 @@ function preload() {
     pipe = loadImage('assets/pipe-green.png');  
 
     gameover = loadImage('assets/gameover.png');
+    ss = loadImage('assets/message.png');
 }
 
 // similiar to "when green flag clicked"
