@@ -26,7 +26,7 @@ function preload() {
     pipe = loadImage('assets/pipe-green.png');  
 
     gameover = loadImage('assets/gameover.png');
-    ss = loadImage('assets/message.png');
+    ssi = loadImage('assets/message.png');
 }
 
 // similiar to "when green flag clicked"
@@ -59,7 +59,7 @@ function setup() {
     pipeGroup = new Group();
 
     ssl = new Sprite(width/2, height/2, 50, 50, 'none');
-    ssl = ss;
+    ssl = ssi;
 }
 
 // called repeatedly 60 times in a second
