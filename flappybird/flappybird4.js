@@ -20,6 +20,8 @@ function preload() {
     flapUpImg = loadImage("assets/yellowbird-upflap.png");
 
     pipe = loadImage('assets/pipe-green.png');  
+
+    gameover = loadImage('assets/gameover.png');
 }
 
 // similiar to "when green flag clicked"
