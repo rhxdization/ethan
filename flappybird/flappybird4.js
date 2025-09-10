@@ -67,6 +67,8 @@ function setup() {
 // where interaction and animation
 
 function draw() {
+    
+    
     if (frameCount === 1) {
         spawnPipePair();
     }
