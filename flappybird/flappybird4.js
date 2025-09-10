@@ -105,6 +105,7 @@ function draw() {
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y === 0) {
+        gameover =
         noLoop();
     } 
 
