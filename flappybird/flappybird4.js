@@ -8,6 +8,8 @@ let flapMidImg, flapDownImg, flapUpImg;
 let pipeGroup;
 let pipe;
 let bottomPipe, topPipe;
+let gameover;
+let gameoverlabel;
 
 // load media files like img or sound effects
 
