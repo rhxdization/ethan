@@ -80,6 +80,53 @@ function draw() {
         if (frameCount === 1) {
             spawnPipePair();
         }
+
+        if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
+        bird.vel.y = -7;
+        bird.sleeping = false;
+    }
+
+    fill("black");
+    textSize = 14;
+    text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
+    text("is moving: " + bird.isMoving, 10, 40);
+    text("is sleeping: " + bird.sleeping, 10, 60);
+
+    if (bird.vel.y < 0.5) {
+        bird.img = flapDownImg;
+        bird.rotation = -30;
+    }
+    else if (bird.vel.y > 0.5) {
+        bird.img = flapUpImg;
+        bird.rotation = 30;
+    }
+    else {
+        bird.img = flapMidImg;
+        bird.rotation = 0;
+    }
+    
+    bird.x += 3;
+    camera.x = bird.x;
+    floor.x = bird.x;
+
+    if(frameCount % 90 === 0) {
+        spawnPipePair();
+    }
+
+    for (let pipe of pipeGroup){
+        if (pipe.x < -50){
+            pipe.remove();
+        }
+    }
+
+    if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y === 0) {
+        gameoverlabel = new Sprite(width/2, height/2, 192, 42, 'static');
+        gameoverlabel.img = gameover;
+        gameoverlabel.layer = 100;
+        gameoverlabel.x = camera.x;
+        noLoop();
+    } 
+    
     }
 
 
