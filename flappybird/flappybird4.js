@@ -67,6 +67,12 @@ function setup() {
 // where interaction and animation
 
 function draw() {
+    
+    if (frameCount === 1) {
+        spawnPipePair();
+    }
+    
+    image(bg, 0, 0, width, height)
 
     if (kb.presses('space') || kb.presses('w') || mouse.presses('left')) {
         start = true;
@@ -74,12 +80,6 @@ function draw() {
     }
 
     if (start) {
-        if (frameCount === 1) {
-        spawnPipePair();
-    }
-    
-        image(bg, 0, 0, width, height)    
-        
         if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
         bird.vel.y = -7;
         bird.sleeping = false;
