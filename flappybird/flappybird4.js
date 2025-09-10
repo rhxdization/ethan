@@ -79,6 +79,10 @@ function draw() {
         startScreenLabel.visible = false;
     }
 
+    if (start) {
+        
+    }
+
     if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
         bird.vel.y = -7;
         bird.sleeping = false;
