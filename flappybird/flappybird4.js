@@ -57,6 +57,8 @@ function setup() {
     world.gravity.y = 20;
 
     pipeGroup = new Group();
+
+    ssl = new Sprite()
 }
 
 // called repeatedly 60 times in a second
