@@ -77,14 +77,14 @@ function draw() {
 
     if (start) {
             
-        if (frameCount === 1) {
-            spawnPipePair();
-        }
+    if (frameCount === 1) {
+        spawnPipePair();
+    }
 
-        if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
-            bird.vel.y = -7;
-            bird.sleeping = false;
-        }
+    if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
+        bird.vel.y = -7;
+        bird.sleeping = false;
+    }
 
     fill("black");
     textSize = 14;
