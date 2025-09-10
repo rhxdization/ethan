@@ -79,7 +79,7 @@ function draw() {
             
         if (frameCount === 1) {
             spawnPipePair();
-    }
+        }
     }
 
     if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
