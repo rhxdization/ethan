@@ -75,7 +75,8 @@ function draw() {
     image(bg, 0, 0, width, height)
 
     if (kb.presses('space') || kb.presses('w') || mouse.presses('left')) {
-        
+        start = true;
+        s
     }
 
     if (kb.presses("space") || mouse.presses("left") || kb.presses("w")) {
