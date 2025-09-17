@@ -113,14 +113,14 @@ function draw() {
             bird.img = flapUpImg;
             bird.rotation = 30;
         }
-    else {
-        bird.img = flapMidImg;
-        bird.rotation = 0;
-    }
+        else {
+            bird.img = flapMidImg;
+            bird.rotation = 0;
+        }
     
-    bird.x += 3;
-    camera.x = bird.x;
-    floor.x = bird.x;
+        bird.x += 3;
+        camera.x = bird.x;
+        floor.x = bird.x;
 
     if(frameCount % 90 === 0) {
         spawnPipePair();
