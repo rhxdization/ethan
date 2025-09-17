@@ -13,6 +13,7 @@ let gameoverlabel;
 let ssi;
 let ssl;
 let start = false;
+let 
 
 // load media files like img or sound effects
 
