@@ -97,7 +97,7 @@ function draw() {
         }
 
         if (kb.presses("space") || mouse.presses() || kb.presses("w")) {
-            bird.vel.y = -7;
+            bird.vel.y = -6;
             bird.sleeping = false;
         }
 
