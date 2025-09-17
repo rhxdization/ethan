@@ -14,7 +14,8 @@ let ssi;
 let ssl;
 let start = false;
 let score = 0;
-let
+let numberImages = [];
+
 
 // load media files like img or sound effects
 
