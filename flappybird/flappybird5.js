@@ -73,7 +73,7 @@ function setup() {
 
     scoreDigits = new Group();
     scoreDigits.collider = "none";
-    
+    scoreDigits.layer = 1000;
 }
 
 // called repeatedly 60 times in a second
