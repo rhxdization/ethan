@@ -70,6 +70,8 @@ function setup() {
 
     ssl = new Sprite(width/2, height/2, 50, 50, 'none');
     ssl.img = ssi;
+
+    
 }
 
 // called repeatedly 60 times in a second
