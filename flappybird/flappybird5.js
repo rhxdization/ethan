@@ -72,6 +72,7 @@ function setup() {
     ssl.img = ssi;
 
     scoreDigits = new Group();
+    scoreDigits.collider = "none";
     
 }
 
