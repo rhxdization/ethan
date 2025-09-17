@@ -83,6 +83,8 @@ function draw() {
     
     image(bg, 0, 0, width, height)
 
+    drawScore(width/2, 20, score, 24, 36);
+
     if (kb.presses('space') || kb.presses('w') || mouse.presses()) {
         start = true;
         ssl.visible = false;
@@ -142,7 +144,6 @@ function draw() {
             noLoop();
         } 
 
-        drawScore(width/2, 20, score, 24, 36);
     }
 
 }
