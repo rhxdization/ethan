@@ -129,8 +129,8 @@ function draw() {
         for (let pipe of pipeGroup){
             if (pipe.x < -50) {
             pipe.remove();
+            }
         }
-    }
 
     if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y === 0) {
         gameoverlabel = new Sprite(width/2, height/2, 192, 42, 'static');
