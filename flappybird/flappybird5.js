@@ -64,7 +64,7 @@ function setup() {
     bird.gravity = 0;
     bird.visible = false;
 
-    world.gravity.y = 20;
+    world.gravity.y = 0;
 
     pipeGroup = new Group();
 
