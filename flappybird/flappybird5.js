@@ -85,7 +85,7 @@ function draw() {
         start = true;
         startScreenLabel.visible = false;
         bird.visible = true;
-        world.gravity.y = 10;
+        world.gravity.y = 20;
     }
 
     if (start) {
