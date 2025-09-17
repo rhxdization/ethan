@@ -15,7 +15,7 @@ let ssl;
 let start = false;
 let score = 0;
 let numberImages = [];
-
+let scoreDigits;
 
 // load media files like img or sound effects
 
