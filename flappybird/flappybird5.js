@@ -30,7 +30,9 @@ function preload() {
     gameover = loadImage('assets/gameover.png');
     ssi = loadImage('assets/message.png');
 
-    for (let i = 0; i<10; i++)
+    for (let i = 0; i<10; i++) {
+        numberImages[i]
+    }
 }
 
 // similiar to "when green flag clicked"
