@@ -83,7 +83,7 @@ function draw() {
 
     if (kb.presses('space') || kb.presses('w') || mouse.presses()) {
         start = true;
-        startScreenLabel.visible = false;
+        ssl.visible = false;
         bird.visible = true;
         world.gravity.y = 20;
     }
