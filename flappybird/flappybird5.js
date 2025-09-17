@@ -138,10 +138,9 @@ function draw() {
             gameoverlabel.layer = 100;
             gameoverlabel.x = camera.x;
             noLoop();
-    } 
+        } 
     
     }
-
 
 }
 
