@@ -173,6 +173,6 @@ function drawScore(x, y, score, digitWidth, digitHeight) {
     for(let i = 0; i < scoreStr.length; i++) {
         let digit = int(scoreStr[1]);
         let xPos = startX + i *  digitWidth;
-        let digitSprite
+        let digitSprite = new scoreDigits.Sprite(xPos)
     }
 }
