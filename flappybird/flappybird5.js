@@ -149,7 +149,7 @@ function draw() {
 }
 
 function spawnPipePair() {
-    let midY = (height+random(-250,180))/2;
+    let midY = (height+random(-350,180))/2;
     let gap = 50;
 
     bottomPipe = new  Sprite(bird.x + 400, midY + gap/2 + 200, 52, 320, 'static');
