@@ -98,16 +98,16 @@ function draw() {
             bird.vel.y = -7;
             bird.sleeping = false;
         }
-        
-    fill("black");
-    textSize = 14;
-    text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
-    text("is moving: " + bird.isMoving, 10, 40);
-    text("is sleeping: " + bird.sleeping, 10, 60);
 
-    if (bird.vel.y < 0.5) {
-        bird.img = flapDownImg;
-        bird.rotation = -30;
+        fill("black");
+        textSize = 14;
+        text("vel.y: " + bird.vel.y.toFixed(0), 10, 20);
+        text("is moving: " + bird.isMoving, 10, 40);
+        text("is sleeping: " + bird.sleeping, 10, 60);
+
+        if (bird.vel.y < 0.5) {
+            bird.img = flapDownImg;
+        bird    .rotation = -30;
     }
     else if (bird.vel.y > 0.5) {
         bird.img = flapUpImg;
