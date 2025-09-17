@@ -141,8 +141,12 @@ function draw() {
             gameoverlabel.x = camera.x;
             noLoop();
         } 
-        
-        drawScore(width/2, 20, score,)
+
+        function drawScore(x, y, score, digitWidth, digitHeight) {
+            
+        }
+
+        drawScore(width/2, 20, score, 24, 36);
     }
 
 }
