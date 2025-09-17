@@ -60,6 +60,7 @@ function setup() {
     bird.mass = 2;
     bird.drag = 0.02;
     bird.collider = "dynamic";
+    bird.gravity = 0;
     bird.visible = false;
 
     world.gravity.y = 20;
