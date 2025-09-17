@@ -143,7 +143,7 @@ function draw() {
         } 
 
         function drawScore(x, y, score, digitWidth, digitHeight) {
-            
+            scoreDigits.removeAll
         }
 
         drawScore(width/2, 20, score, 24, 36);
