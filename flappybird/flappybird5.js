@@ -81,7 +81,7 @@ function draw() {
     
     image(bg, 0, 0, width, height)
 
-    if (kb.presses('space') || kb.presses('w') || mouse.presses('left')) {
+    if (kb.presses('space') || kb.presses('w') || mouse.presses()) {
         start = true;
         startScreenLabel.visible = false;
         bird.visible = true;
