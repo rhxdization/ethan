@@ -94,7 +94,7 @@ function draw() {
         start = true;
         ssl.visible = false;
         bird.visible = true;
-        world.gravity.y = 100;
+        world.gravity.y = 20;
     }
 
     if (start) {
@@ -104,7 +104,7 @@ function draw() {
         }
 
         if (kb.presses("space") || mouse.presses() || kb.presses("w")) {
-            bird.vel.y = -10;
+            bird.vel.y = -7;
             bird.sleeping = false;
             flapSound.play();
         }
