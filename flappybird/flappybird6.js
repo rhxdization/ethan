@@ -136,7 +136,13 @@ function draw() {
             }
         }
 
-        
+        for (let pipe of pipeGroup) {
+            let pipeRightEdge = pipe.x + pipe.w / 2;
+            let birdLeftEdge = bird.x - bird.w / 2;
+            if (pipe.passed == false && pipeRightEdge < birdLeftEdge) {
+                pipe.passed = true;
+            }
+        }
 
         if (bird.collides(pipeGroup) || bird.collides(floor) || bird.y === 0) {
             gameoverlabel = new Sprite(width/2, height/2, 192, 42, 'static');
