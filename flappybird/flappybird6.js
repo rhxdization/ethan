@@ -156,7 +156,7 @@ function draw() {
             gameoverlabel.img = gameover;
             gameoverlabel.layer = 100;
             gameoverlabel.x = camera.x;
-            
+            dieSound.play();
             noLoop();
         } 
 
