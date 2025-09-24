@@ -36,7 +36,9 @@ function preload() {
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
 
-    flapSound = createAudio('assets/sfx_wing.mp3')
+    flapSound = createAudio('assets/sfx_wing.mp3');
+    
+    flapSound = createAudio('assets/sfx_wing.mp3');
 }
 
 // similiar to "when green flag clicked"
