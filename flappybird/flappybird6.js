@@ -106,7 +106,7 @@ function draw() {
         if (kb.presses("space") || mouse.presses() || kb.presses("w")) {
             bird.vel.y = -6;
             bird.sleeping = false;
-            wingSound.play();
+            flapSound.play();
         }
 
         fill("black");
