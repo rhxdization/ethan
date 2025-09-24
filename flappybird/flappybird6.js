@@ -162,7 +162,7 @@ function draw() {
         }
 
         setTimeout(() => {
-            
+            score = 0;
         })
 
     }
