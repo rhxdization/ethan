@@ -171,8 +171,8 @@ function draw() {
             bird.collider = "static";
             bird.y = 200;
 
-            gameoverlabel.remove();
-            startmessageLabel.visible = true;
+            gameOverlabel.remove();
+            startMessageLabel.visible = true;
             startMessageLabel.x = bird.x;
             startMessageLabel.y = height/2 - 50;
 
