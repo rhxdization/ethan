@@ -159,7 +159,9 @@ function draw() {
             gameoverlabel.x = camera.x;
             dieSound.play();
             noLoop();
-        } 
+        }
+
+        
 
     }
 
