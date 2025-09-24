@@ -173,7 +173,8 @@ function draw() {
 
             gameoverlabel.remove();
             startmessageLabel.visible = true;
-            
+            startMessageLabel.x = bird.x;
+            startMessageLabel.y
         })
 
     }
