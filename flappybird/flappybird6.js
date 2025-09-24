@@ -36,7 +36,7 @@ function preload() {
         numberImages[i] = loadImage('assets/' + i + '.png');
     }
 
-    
+    flapSound = create
 }
 
 // similiar to "when green flag clicked"
