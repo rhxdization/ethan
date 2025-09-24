@@ -145,7 +145,7 @@ function draw() {
         } 
 
         for (let pipe of pipeGroup) {
-            let pipeRightEdge
+            let pipeRightEdge = pipe.x
         }
 
     }
