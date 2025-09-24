@@ -172,9 +172,9 @@ function draw() {
             bird.y = 200;
 
             gameoverlabel.remove();
-            startMessageLabel.visible = true;
-            startMessageLabel.x = bird.x;
-            startMessageLabel.y = height/2 - 50;
+            ssl.visible = true;
+            ssl.x = bird.x;
+            ssl.y = height/2 - 50;
 
             loop();
         })
