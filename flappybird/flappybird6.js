@@ -171,7 +171,7 @@ function draw() {
             bird.collider = "static";
             bird.y = 200;
 
-            gameoverLabel.remove();
+            gameoverlabel.remove();
             ssl.visible = true;
             ssl.x = bird.x;
             ssl.y = height/2 - 50;
