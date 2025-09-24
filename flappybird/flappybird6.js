@@ -23,9 +23,9 @@ function preload() {
     bg = loadImage("assets/background-day.png");
     base = loadImage("assets/base.png");
 
-    flapMidImg = loadImage("assets/sampleimage.png");
-    flapDownImg = loadImage("assets/sampleimage.png");
-    flapUpImg = loadImage("assets/sampleimage.png");
+    flapMidImg = loadImage("assets/yellowbird-midflap.png");
+    flapDownImg = loadImage("assets/yellowbird-downflap.png");
+    flapUpImg = loadImage("assets/yellowbird-upflap.png");
 
     pipe = loadImage('assets/pipe-green.png');  
 
@@ -147,10 +147,9 @@ function draw() {
         for (let pipe of pipeGroup) {
             let pipeRightEdge = pipe.x + pipe.w / 2;
             let birdLeftEdge = bird.x - bird.w / 2;
-            if (pipe.passed == false && pipeRightEdge , birdLeftEdge) {
+            if (pipe.passed == false && pipeRightEdge , birdLeftEdge {
                 pipe.passed = true;
-                score++;
-            }
+            })
         }
 
     }
