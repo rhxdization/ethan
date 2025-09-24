@@ -94,7 +94,7 @@ function draw() {
         start = true;
         ssl.visible = false;
         bird.visible = true;
-        world.gravity.y = 20;
+        world.gravity.y = 100;
     }
 
     if (start) {
