@@ -161,7 +161,9 @@ function draw() {
             noLoop();
         }
 
-        setTimeout(() => {})
+        setTimeout(() => {
+            
+        })
 
     }
 
