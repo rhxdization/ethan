@@ -16,7 +16,7 @@ let start = false;
 let score = 0;
 let numberImages = [];
 let scoreDigits;
-let wingSound,
+let wingSound, pointSound, dieSound;
 
 // load media files like img or sound effects
 
