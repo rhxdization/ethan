@@ -38,8 +38,8 @@ function preload() {
     }
 
     flapSound = createAudio('assets/sfx_wing.mp3');
-    flapSound = createAudio('assets/sfx_point.mp3');
-    flapSound = createAudio('assets/sfx_die.mp3');
+    pointSound = createAudio('assets/sfx_point.mp3');
+    dieSound = createAudio('assets/sfx_die.mp3');
 }
 
 // similiar to "when green flag clicked"
