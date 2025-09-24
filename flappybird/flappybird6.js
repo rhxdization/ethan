@@ -163,6 +163,8 @@ function spawnPipePair() {
     pipeGroup.add(topPipe);
     pipeGroup.layer = 0;
 
+    topPipe.passed = false;
+
 }
 
 function drawScore(x, y, score, digitWidth, digitHeight) {
