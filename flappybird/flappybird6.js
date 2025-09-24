@@ -172,6 +172,8 @@ function draw() {
             bird.y = 200;
 
             gameoverlabel.remove();
+            startmessageLabel.visible = true;
+            
         })
 
     }
