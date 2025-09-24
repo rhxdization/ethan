@@ -163,6 +163,8 @@ function draw() {
 
         setTimeout(() => {
             score = 0;
+            startGame = false;
+            
         })
 
     }
