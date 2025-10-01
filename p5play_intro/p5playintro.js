@@ -61,11 +61,11 @@ function draw() {
   box.y = mouseY;
 
   if (mouse.presses("left")) {
-    let x = new Sprite (mouseX, mouseY, 50, 50)
+    let x = new Sprite (mouseX, mouseY, 200, 200)
     x.collider = ("dynamic")
   }
   if (mouse.presses("right")) {
-    let y = new Sprite (mouseX, mouseY, 30, 30)
+    let y = new Sprite (mouseX, mouseY, 150, 150)
     y.collider = ("static")
 }
 }
