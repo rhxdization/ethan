@@ -104,7 +104,7 @@ function draw() {
         }
 
         if (kb.presses("space") || mouse.presses() || kb.presses("w")) {
-            bird.vel.y = 0;
+            bird.vel.y = -25;
             bird.sleeping = false;
             flapSound.play();
         }
