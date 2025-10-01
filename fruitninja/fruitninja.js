@@ -24,6 +24,12 @@ function draw() {
     clear();
     
     image(backgroundImg, 0, 0, width, height);
+    if (mouse.pressing()) {
+        trail = new Sprite(mouse.x, mouse.y, 7);
+        trail.collider = 'none';
+        trail.color = 'red';
+        trail.life = 7;
+    }
 }
 
 function spawnFruit() {
@@ -33,4 +39,6 @@ function spawnFruit() {
     fruit.image = fruitData.whole;
     fruit.type = fruitData;
     fruit.vel.x = random(-2,2);
+    fruit.vel.y = random(-10,14);
+    fruit.friction = 0;
 }
