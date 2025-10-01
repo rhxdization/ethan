@@ -1,2 +1,2 @@
 // write your codes here
-let floor,
+let background;
