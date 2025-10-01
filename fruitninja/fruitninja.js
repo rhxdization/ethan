@@ -6,6 +6,7 @@ function preload() {
 
 function setup() {
     new canvas(800,600);
+    w9
 }
 
 function draw() {
