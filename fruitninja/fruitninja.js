@@ -6,5 +6,5 @@ function preload() {
 
 function setup() {
     new canvas(800,600);
-    
+    background = backgroundImg;
 }
