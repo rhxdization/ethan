@@ -177,7 +177,7 @@ function draw() {
             ssl.y = height/2 - 50;
 
             loop();
-        }, 3000);
+        },   3000);
 
     }
 
