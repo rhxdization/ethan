@@ -7,7 +7,7 @@ function setup() {
   ball = new Sprite();
   ball.x = 100;
   ball.y = 200;
-  ball.diameter = 50;
+  ball.diameter = 200;
   ball.color = "blue";
   ball.vel.x = 7;
   ball.vel.y = 7;
@@ -16,7 +16,7 @@ function setup() {
   ball2 = new Sprite();
   ball2.x = 200;
   ball2.y = 200;
-  ball2.diameter = 50;
+  ball2.diameter = 200;
   ball2.color = "red";
   ball2.vel.x = -7;
   ball2.vel.y = -7;
