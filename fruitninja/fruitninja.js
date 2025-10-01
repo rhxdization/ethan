@@ -10,5 +10,7 @@ function setup() {
 }
 
 function draw() {
+    clear();
+    
     image(backgroundImg, 0, 0, width, height);
 }
