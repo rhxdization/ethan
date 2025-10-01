@@ -1,5 +1,5 @@
 // write your codes here
-let background, backgroundImg;
+let backgroundImg;
 function preload() {
     backgroundImg = image('assets/dojobackground.png');
 }
