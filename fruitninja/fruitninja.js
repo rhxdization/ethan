@@ -1,2 +1,2 @@
 // write your codes here
-let background;
+let background, backgroundImg;
