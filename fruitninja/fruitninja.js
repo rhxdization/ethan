@@ -25,7 +25,9 @@ function draw() {
     
     image(backgroundImg, 0, 0, width, height);
     
-    if (frameCount%120 === 0)
+    if (frameCount%120 === 0) {
+        spawnFruit();
+    }
     
     if (mouse.pressing()) {
         trail = new Sprite(mouse.x, mouse.y, 7);
