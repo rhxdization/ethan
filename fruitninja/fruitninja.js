@@ -1,6 +1,6 @@
 // write your codes here
 let backgroundImg;
-let fruitTypes = []
+let fruitTypes = [];
 
 function preload() {
     backgroundImg = loadImage('assets/dojobackground.png');
