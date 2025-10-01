@@ -161,24 +161,6 @@ function draw() {
             noLoop();
         }
 
-        setTimeout(() => {
-            score = 0;
-            startGame = false;
-            pipeGroup.removeAll();
-            bird.vel.x = 0;
-            bird.vel.y - 0;
-            bird.rotation = 0;
-            bird.collider = "static";
-            bird.y = 200;
-
-            gameoverlabel.remove();
-            ssl.visible = true;
-            ssl.x = bird.x;
-            ssl.y = height/2 - 50;
-
-            loop();
-        },   3000);
-
     }
 
 }
